@@ -9,9 +9,9 @@
   "terminal.integrated.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
-  "editor.lineHeight": 23.2,
+  "editor.lineHeight": 23,
   "editor.letterSpacing": 0.5,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "workbench.fontAliasing": "auto",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Night Owl",
@@ -33,6 +33,22 @@
   "editor.renderWhitespace": "all",
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
-  "diffEditor.ignoreTrimWhitespace": false
-
+  "diffEditor.ignoreTrimWhitespace": false,
+  "macros": {
+      "collapseAndClose": [
+          "workbench.files.action.collapseExplorerFolders",
+          "workbench.action.closeAllEditors"
+      ]
+  },
+  // Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  // Gitlens
+  "gitlens.views.repositories.files.layout": "auto", // Updated since 9.0.0 - 2018-12-02.
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.keymap": "alternate",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  }
 }
