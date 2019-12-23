@@ -33,6 +33,7 @@
   "editor.renderWhitespace": "all",
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "macros": {
       "collapseAndClose": [
@@ -49,6 +50,11 @@
   "gitlens.hovers.enabled": false,
   "gitlens.keymap": "alternate",
   "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  }
+      "suppressShowKeyBindingsNotice": true
+  },
+  // Emmet
+  "emmet.triggerExpansionOnTab": true,
+  // Formatting
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true
 }
